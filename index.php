@@ -237,7 +237,7 @@
 
     <!-- footer section start -->
     <footer>
-        <span>Created By <a href="https://www.codingnepalweb.com">Mohdf Askery Malik</a> | <span
+        <span>Created By <a href="https://www.codingnepalweb.com">Mohd Askery Malik</a> | <span
                 class="far fa-copyright"></span> 2021 All rights reserved.</span>
     </footer>
 
