@@ -28,7 +28,7 @@
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                
+
                 <li><a href="#services" class="menu-btn">Services</a></li>
                 <!-- <li><a href="#skills" class="menu-btn">Skills</a></li> -->
                 <li><a href="#teams" class="menu-btn">Team</a></li>
@@ -50,84 +50,27 @@
         </div>
         <img src="css/images/home-two-img.png" class="image_ani" alt="">
     </section>
-    
-
-    <!-- about section start -->
-    <section class="about" id="about">
-        <div class="max-width">
-            <h2 class="title">About me</h2>
-            <div class="about-content">
-                <div class="column left">
-                    <img src="images/profile-1.jpeg" alt="">
-                </div>
-                <div class="column right">
-                    <div class="text">I'm Prakash and I'm a <span class="typing-2"></span></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque
-                        autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus
-                        accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus
-                        veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis
-                        beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
-                    <a href="#">Download CV</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- services section start -->
     <section class="services" id="services">
-        <div class="max-width">
-            <h2 class="title">My services</h2>
-            <div class="serv-content">
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-paint-brush"></i>
-                        <div class="text">Web Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-chart-line"></i>
-                        <div class="text">Graphic Designer</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Apps Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Apps Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Apps Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Apps Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <div class="heading">
+            <h1>Our Services</h1>
         </div>
+        <div class="container-rows">
+            <div class="service-item service-item-1">
+                <h1>Web Development</h1>
+                <div class="logo">
+                    <img src="css/images/logo-web-development.jpg" alt="">
+                </div>
+               <p> We have an experienced and professional team of web developers, we research, plan, and design mobile
+                first websites and CMS systems to build a unique brand for your business.</p>
+                </div>
+            <div class="service-item service-item-2">
+                <h1>Graphic Design</h1>
+            </div>
+            <div class="service-item service-item-3"></div>
+            <div class="service-item service-item-4"></div>
+            <div class="service-item service-item-5"></div>
+            <div class="service-item service-item-6"></div>
         </div>
     </section>
 
