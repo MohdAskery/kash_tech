@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Livvic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Manrope:wght@600&family=Syne:wght@600&display=swap');
 
 .home{
     min-height: 100vh;
@@ -65,4 +66,85 @@ background-image: radial-gradient( circle 597px at 93% 9.8%,  rgba(255,61,89,1) 
     font-size: 66px;
 font-family: 'Livvic', sans-serif;
 color:rgb(255, 253, 253);
+}
+
+
+/* services styling start */
+.services{
+    /* border:2px solid red; */
+    width:100%;
+    min-height:80vh;
+    margin-top: 100px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.services .heading h1{
+    text-align: center;
+    font-size: 50px;
+    border:2px dashed red;
+    line-height: 90px;
+    text-transform:lowercase;
+    margin-bottom: 10px;
+    width:400px;
+    border-top:none;
+    border-left: none;
+    border-right:none;
+    font-family: 'Manrope', sans-serif;
+
+}
+.container-rows{
+    /* border:2px solid green; */
+    display: flex;
+    height: 150vh;
+    width:90%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.service-item{
+    padding-top: 20px;
+    width:30%;
+    height: 70vh;
+    background: #FFFFFF;
+    border:2px solid #f5efef;
+    border-top: none;
+    border-bottom: none;
+    box-shadow: 3px 3px 6px 1px #f5efef;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.service-item:hover{
+            transform: scale(1.1);
+
+}
+.service-item .logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.service-item .logo img{
+    /* border:2px solid red; */
+    border-radius: 100%;
+    width:70%;
+    height: 90%;
+    transition: transform 0.3s ease-in-out;
+}
+.service-item .logo img:hover{
+        transform: scale(1.2);
+
+}
+.service-item p{
+    /* border:2px solid red; */
+    width:80%;
+    word-wrap: break-word;
+    text-align: center;
 }
